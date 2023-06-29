@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+:root {
+    --main-bg-color: rgb(255, 253, 240);
+    --font1: 'Cookie', cursive;
+    --font2: 'Inconsolata', monospace;
+}
+
+/*@media screen and (min-width: 600px) {
+    div {
+        float: left;
+    }
+}*/
+
+.format1 {
+    max-width: 80vw;
+}
+
+.format2 {
+    max-width: 60vw;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.automargin {
+    margin: auto;
+
+}
+
+.margin2 {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.button {
+    padding: 5px 3px;
+    border: 2px midnightblue;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: var(--font2);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out
+}
+
+.button:hover {
+    color: oldlace;
+    background: midnightblue;
+
+}
+
+.search-bar {
+    padding: 5px 3px;
+    font-size: 20px;
+    font-family: var(--font2);
+    border: 1px midnightblue;
+    border-radius: 4px;
+    margin: 0 10px;
+
+}
+
+.form-box input,
+textarea {
+    width: 40vw;
+    padding: 10px 8px;
+    margin: 7px 0;
+    font-size: 15px;
+    font-family: var(--font2);
+    border: 3px rgb(174, 37, 237);
+    border-radius: 4px;
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script type="text/javascript">
+        function callValue() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var query = document.getElementById("query").value;
+            document.writeln("<b><u>Entered Information: </u></b>" + "<br><br>" + "Your name: " + name + "<br>" + "Your email: " + email + "<br>" + "Your query: " + query);
+
+        }
+    </script>
+    <title>Blog</title>
+</head>
+
+<body>
+    <nav class="navigation format1 automargin">
+        <div class="nav-left">
+            <img src="logo.png" width="200" height="100">
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Poetry</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="search-bar" type="text" name="query" placeholder="Search Bar">
+                <button class="button">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="format1 automargin margin2">
+
+
+            <div class="home format1 automargin margin2 font1">
+                <h2>Feel Free to Contact Us</h2>
+                <div class="contact-form">
+                    <form id="formBoxscript" onsubmit="callValue()">
+                        <div class="form-box">
+                            <input type="text" id="name" placeholder="Enter name">
+                        </div>
+                        <div class="form-box">
+                            <input type="text" id="email" placeholder="Enter email id">
+                        </div>
+                        <div class="form-box">
+                            <textarea name="query" id="query" cols="20" rows="5">Enter your query</textarea>
+                        </div>
+                        <div class="form-box">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer automargin">
+        <a href="./contact.html"><u>Contact us</u></a>
+    </div>
+
+</body>
+
+</html>

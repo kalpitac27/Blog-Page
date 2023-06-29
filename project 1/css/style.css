@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navigation {
+    font-family: var(--font1);
+    background-color: oldlace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+    margin: 25px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.nav-left ul li {
+    font-size: 30px;
+
+    list-style: none;
+    margin: 0 14px;
+    transition: all 0.5s ease-in-out
+}
+
+.nav-left ul li:hover {
+    color: blue;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    height: 100%;
+    background-image: url("../moonchild.jpg");
+    /*background-color: MidnightBlue;*/
+    display: flex;
+    margin-top: 10px;
+    padding: 4.5px;
+    position: relative;
+}
+
+.content-right {
+    font-family: var(--font2);
+    color: white;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-left {
+    padding: 4.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left img {
+    border: 5px oldlace;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.content-left img:hover {
+    border: 8px oldlace;
+    cursor: pointer;
+}
+
+.home {
+    padding: 20px;
+    background-color: powderblue;
+    margin-top: 30px;
+    position: relative;
+    text-align: left;
+}
+
+.year-box {
+    position: absolute;
+}
+
+.articles {
+    display: flex;
+    margin: 25px;
+}
+
+.article1-content {
+
+    padding: 20px;
+}
+
+.home img {
+    height: 200px;
+    width: 250px;
+}
+
+.article1-content a {
+    text-decoration: none;
+    color: midnightblue;
+
+}
+
+
+.footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: midnightblue;
+    padding: 15px;
+    flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.content {
+    height: 80vh;
+    background-image: url("../moonchild.jpg");
+    /*background-color: MidnightBlue;*/
+    display: flex;
+    margin-top: 10px;
+    padding: 4.5px;
+    position: relative;
+    font-size: 30px;
+}
+
+.contact-form {
+    font: var(--font2)
+}
